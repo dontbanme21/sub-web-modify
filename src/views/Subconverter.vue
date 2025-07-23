@@ -359,7 +359,12 @@ export default {
         remoteConfig: [
           {
             label: "danfeng转换规则",
-            value: "https://raw.githubusercontent.com/dontbanme21/clash_rules/refs/heads/main/rules.ini"
+            options: [
+              {
+                label: "danfeng全分组(国内外增强)",
+                value: "https://raw.githubusercontent.com/dontbanme21/clash_rules/refs/heads/main/rules.ini"
+              }
+            ]
           },
           {
             label: "CM规则",
