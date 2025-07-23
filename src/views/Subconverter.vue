@@ -338,6 +338,7 @@ export default {
           "suo.yt": "https://suo.yt/short",
         },
         customBackend: {
+          "danfeng专属后端": "https://subapi.fgfw.eu.org",// 为您的后端取名
           "CM负载均衡后端【vless reality+hy1+hy2】": "https://subapi.cmliussss.net",
           "CM应急备用后端【vless reality+hy1+hy2】": "https://subapi.fxxk.dedyn.io",
           "肥羊增强型后端【vless reality+hy1+hy2】": "https://url.v1.mk",
@@ -356,6 +357,10 @@ export default {
           { value: "https://api.wcc.best" },
         ],
         remoteConfig: [
+          {
+            label: "danfeng转换规则",
+            value: "https://raw.githubusercontent.com/dontbanme21/clash_rules/refs/heads/main/rules.ini"
+          },
           {
             label: "CM规则",
             options: [
